@@ -1,0 +1,25 @@
+{
+    "store.custom#landing":{
+        "blocks": [
+            "image#landingbanner", 
+            "search-result-layout.customQuery#home"
+        ]
+    },
+    "image#landingbanner":{
+        "props":{
+            "src": "https://lojaccm.vteximg.com.br/arquivos/ids/234432?v=637346749966670000",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery#home": {
+        "props": {
+          "querySchema": {
+            "skusFilter": "FIRST_AVAILABLE",
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "Blue Top Retro Camera"
+          }
+        }
+    }
+}
