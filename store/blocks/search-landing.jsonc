@@ -20,6 +20,11 @@
             "maxItemsPerPage": 8,
             "queryField": "Blue Top Retro Camera"
           }
-        }
+        },
+        "blocks":[
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
     }
 }
